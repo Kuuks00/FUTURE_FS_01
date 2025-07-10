@@ -1,0 +1,33 @@
+  
+        /* Base styles for the document */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #a3d0fd; /* Light blue background */
+            color: #334155; /* Dark slate text */
+        }
+        
+        /* Custom color definitions for brand consistency */
+        .text-primary {
+            color: #1e3a8a; /* Dark blue for primary text */
+        }
+        .bg-primary {
+            background-color: #1e3a8a; /* Dark blue for primary backgrounds */
+        }
+        
+        /* Reusable button styles using Tailwind's @apply directive */
+        .btn {
+            @apply px-6 py-3 rounded-full font-semibold transition-colors duration-300;
+        }
+        .btn-primary {
+            @apply bg-primary text-white hover:bg-blue-800;
+        }
+        
+        /* Common styles for main section headings */
+        .section-heading {
+            @apply text-4xl font-bold text-center mb-12 text-primary;
+        }
+        
+        /* Styles for card components (Projects, Skills) */
+        .card {
+            @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
+        }
