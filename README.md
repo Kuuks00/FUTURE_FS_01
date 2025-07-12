@@ -1,2 +1,2 @@
 # FUTURE_FS_01
-Future Intern Fullstack Internship Repo
+## DEVELOP A MINI E-COMMERCE STOREFRONT
